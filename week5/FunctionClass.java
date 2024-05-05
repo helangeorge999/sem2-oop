@@ -28,8 +28,8 @@ public class FunctionClass {
         int callIntFunction= fc.returnInteger();
         System.out.println("Funciton withe return int"+ callIntFunction);
         /*if a function has a return tyoe itger than void we can saave it */
-        int callIntFunction=fc.returnInteger();
-        boolean callIntFunction=fc.returnString(10,20);
+        callIntFunction=fc.returnInteger();
+        boolean callreturnStringFunction=fc.returnString(10,20);
         System.out.println("function with return int"+callIntFunction);
           
        }
