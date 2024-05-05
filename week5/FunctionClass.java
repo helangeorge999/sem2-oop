@@ -24,6 +24,13 @@ public class FunctionClass {
            fc.printSomthing();;
            /*You can call this function in need */
            fc.printSomthing();
+            /* if a function has a reutn type other than vod we can save it */
+        int callIntFunction= fc.returnInteger();
+        System.out.println("Funciton withe return int"+ callIntFunction);
+        /*if a function has a return tyoe itger than void we can saave it */
+        int callIntFunction=fc.returnInteger();
+        boolean callIntFunction=fc.returnString(10,20);
+        System.out.println("function with return int"+callIntFunction);
           
        }
     }
