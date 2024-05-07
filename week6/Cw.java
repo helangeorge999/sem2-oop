@@ -37,7 +37,38 @@ public class Cw {
          System.out.println ( myFifthArray[4] + "  " + myFifthArray[4] * 2);
 
          
-
-    }
+           //Array Loop
+          // data[100]; this will crash, no index accessible
+        /* Task Make an array of length  10
+         * Add the value as 10, 20, 30, 40, 50, 60, 70, 80, 90, 100
+         * Make another array with the same legth 10
+         * Add the valueof first array in negative
+         * Use loop on first array to complete this
+         * second array should be -10, -20, -30, -40, -50, -60, -70, -80, -90, -100
+         * Print the second array
+         */
+        
+         int[] firstArray = { 10, 20, 30, 40, 50, 60, 70, 80, 90, 100};
+         int firstArrayLength = firstArray.length;
+         int [] secondArray = new int [10];
+         for (int index = 0; index < firstArrayLength; index ++){
+            secondArray[index] = -firstArray[index];
+            System.out.println("secondArray[index]");
+        }
     
+
+        /*Task 3 
+         * print the third array in descending
+         * should be : -100, -90, -80, -70, ..., -10
+         * Note: start loop from (length -1) to 0
+        */
+        int secondArrayLength = secondArray.length;
+        for (int index = firstArrayLength -1; index >= 0; index --){
+            System.out.println("Descending " + secondArray[index]);
+        }
+        
+    }
+
 }
+    
+
