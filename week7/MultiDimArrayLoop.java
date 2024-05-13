@@ -63,5 +63,7 @@ public class MultiDimArrayLoop {
                     if (name[i][j] == "Ram") {
                         System.out.println(i + " " + j);
                 }
-    }
-}
+            }
+
+        }
+    }}
