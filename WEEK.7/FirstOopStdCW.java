@@ -19,7 +19,7 @@ public class FirstOopStdCW {
 // - firstName
 // - lastName
 // - studentId
-// - age
+// - Age
 // function
 // - fullName()=> return firstName + lastName
 // - description() => print fullName and studentId
