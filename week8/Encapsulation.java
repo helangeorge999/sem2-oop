@@ -12,7 +12,7 @@ public class Encapsulation{
 
         //for price 
         Laptop laptop3 = new Laptop();
-        laptop3.setPrice(113200);
+        laptop3.setPrice(115000);
         System.out.println(laptop3.getPrice());
 
         //for year
