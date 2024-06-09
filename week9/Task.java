@@ -12,21 +12,21 @@ public class Task {
 class Animal{
     int lifespan;
     void speak(){
-        System.out.println("lifespan: " + lifespan);
+        System.out.println("Animal Speaks");
     }
 }
 
 class mammal extends Animal{
     int legs;
     void fur(){
-        System.out.println("legs: " + legs);
+        System.out.println(legs + " furry");
     }
 }
 
 class Dog extends mammal{
     String diet;
     void barks(){
-        System.out.println("diet: " + diet);
+        System.out.println("Dog barks");
     }
 }
 
@@ -41,7 +41,7 @@ class Labradog extends Dog{
 class reptile extends Animal{
     int eggs;
     void shed(){
-        System.out.println("eggs: " + eggs);
+        System.out.println("Shedding");
     }
 }
 
