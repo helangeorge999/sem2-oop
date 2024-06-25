@@ -22,7 +22,7 @@ public class PolymorphismTask{
         Document d3 = new Office365();
         d3.print("Xeroz");
         // cannot access d3.internet
-        
+
         Spreadsheet s1 = new Spreadsheet();
         s1.addRow(5);
         s1.addColumn(3);
@@ -55,13 +55,13 @@ class MathOperation{
         System.out.println("Invalid Operation");
     }
     // Task
-// Make a function substraction
-// take two int and return int
-// take three double and return double
-// take 1 double and print invalid operation
-// take 1 int and print invalid operation
-// take 2 int and double and return double
-// call these function from MathOperation object
+    // Make a function substraction
+    // take two int and return int
+    // take three double and return double
+    // take 1 double and print invalid operation
+    // take 1 int and print invalid operation
+    // take 2 int and double and return double
+    // call these function from MathOperation object
     int substraction(int num1, int num2) {
         return num1 - num2;
     }
